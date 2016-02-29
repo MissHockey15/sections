@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,13 +10,15 @@ html {
 section {
   display: block;
   background-color: #f0eee8;
-  padding: 3em;
-
+  padding: 2em;
 }
 
 div {
   display: inline-block;
   max-width: 25em;
+  vertical-align: middle;
+  padding: 1em;
+  text-align: left;
 }
 
 img {
@@ -26,7 +29,7 @@ img {
 div {
 }
 
-a {
+.btn-ghost {
   display: inline-block;
   background-color: #f0eee8;
   border: 3px solid #000;
