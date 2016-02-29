@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  display: block;
+  background-color: #f0eee8;
+  padding: 3em;
+
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+div {
+}
+
+a {
+  display: inline-block;
+  background-color: #f0eee8;
+  border: 3px solid #000;
+  text-align: center;
+  color: #000;
+  padding: 0.5em;
+  text-decoration: none;
+  border-radius: 5px;
